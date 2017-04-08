@@ -18,13 +18,6 @@ All Contents
 ------------------*/
 
 
-/*----- 1. Reset.css -----*/
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -173,13 +166,13 @@ body {
 
 .error-message {
 	color: #FF3333;
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	margin-top: 5px;
 }
 
 .success-message {
 	color:#33cc33;
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	margin-top: 5px;
 }
 
@@ -467,7 +460,7 @@ body {
 }
 
  .btn-action {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	background-color: #ff7132;
   border: 2px solid #ff7132;
 	border-radius: 0;
@@ -843,7 +836,7 @@ body {
 }
 
 .features-section-2 .features-content p {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: 300;
@@ -965,7 +958,7 @@ body {
 }
 
 .testimonial-section .sub {
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;;
 	font-size: 16px;
 	font-weight: 300;
 	color: #111111;
@@ -990,7 +983,7 @@ body {
 }
 
 .testimonial-text h3 {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
   font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 0;
@@ -1044,7 +1037,7 @@ body {
 }
 
 .app-info h4 {
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;;
   font-size: 18px;
   font-weight: 300;
   color:  #3C4B5D;
@@ -1105,7 +1098,7 @@ body {
 
 
 .pricing-intro p {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 15px;
 	color: #303030;
 	font-weight: 300;
@@ -1204,7 +1197,7 @@ body {
 }
 
 .cta-sub p {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 16px;
 	color: #303030;
 	font-weight: 300;
@@ -1230,7 +1223,7 @@ body {
 }
 
 .cta-sub-btm p {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 16px;
 	color: #000000;
 	font-weight: 300;
@@ -1346,7 +1339,7 @@ border-color: #ff7132;
 .footer-menu li {
 	display: inline;
 	line-height: 2;
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 14px;
 	padding-right: 15px;
 	text-transform: uppercase;
@@ -1358,7 +1351,7 @@ border-color: #ff7132;
 }
 
 .footer-text p {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: 300;
@@ -1395,7 +1388,7 @@ border-color: #ff7132;
 }
 
 .contact-section p {
-	font-family: Roboto;
+	font-family: 'Lato', sans-serif;;
 	font-size: 14px;
 	font-weight: 300;
 	color: #111111;
@@ -1442,17 +1435,17 @@ label {
 }
 
 .form-control::-webkit-input-placeholder {
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;;
   font-size: 13px;
   color: #999999;
 }
 .form-control:-moz-placeholder {
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;;
   font-size: 13px;
   color: #999999;
 }
 .form-control::-moz-placeholder {
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;;
   font-size: 13px;
   color: #999999;
 }
@@ -1463,7 +1456,7 @@ label {
 }
 
 .text-muted {
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;;
   font-size: 13px;
   color: #222;
 }
@@ -1942,4 +1935,145 @@ label {
 	.features-section-2 .features-content h2 {
 		margin-top: 10px;
 	}
+}
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 40px auto;
+        margin-bottom: 0;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
 }
