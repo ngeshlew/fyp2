@@ -483,14 +483,14 @@ body {
 
 .hero-content .btn-action:hover, .hero-content .btn-action:focus,
 .hero-content .btn-action:active, .hero-content .btn-action:active:focus {
-	background: transparent;
+	background: #ffffff;
 	outline: none;
 	color: #ff7132;
 	border-color: #ff7132;
 }
 
 .btn-action:hover, .btn-action:focus, .btn-action:active, .btn-action:active:focus {
-	background: transparent;
+	background: #ffffff;
 	outline: none;
 	color: #ff7132;
 	border-color: #ff7132;
