@@ -6,10 +6,14 @@ function isEmail($email) {
 }
 
 if($_POST) {
+    // get the environment variables from .env file
+    // you can do this at a global level so you getenv('ENV_FIELD') easily anywhere
+    $dotenv = new Dotenv\Dotenv(__DIR__, '.env');
+    $dotenv->load();
 
-    $mailchimp_api_key = 'ed0a0f82434326c6c139446ae25a0b62-us9'; // enter your MailChimp API Key
+    $mailchimp_api_key = getenv('MAILCHIMP_API_KEY'); // fetch your MailChimp API Key
     // ****
-    $mailchimp_list_id = 'd36bcdc926'; // enter your MailChimp List ID
+    $mailchimp_list_id = getenv('MAILCHIMP_LIST_ID'); // fetch your MailChimp List ID
     // ****
 
     $subscriber_email = addslashes(trim($_POST['email']));
